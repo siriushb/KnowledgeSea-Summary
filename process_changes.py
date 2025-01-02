@@ -12,6 +12,7 @@ from functools import wraps
 from urllib.parse import quote
 from waybackpy import WaybackMachineSaveAPI
 
+
 # -- configurations begin --
 BOOKMARK_COLLECTION_REPO_NAME: str = "KnowledgeSea"
 BOOKMARK_SUMMARY_REPO_NAME: str = "KnowledgeSea-Summary"
@@ -217,6 +218,8 @@ def process_bookmark_file():
     with open(f'{BOOKMARK_COLLECTION_REPO_NAME}/README.md', 'r', encoding='utf-8') as f:
         bookmark_lines: List[str] = f.readlines()
 
+    print("Current working directory:", os.getcwd())
+    
     with open(f'{BOOKMARK_SUMMARY_REPO_NAME}/data.json', 'r', encoding='utf-8') as f:
         summarized_bookmark_dicts = json.load(f)
         summarized_bookmarks = [SummarizedBookmark(**bookmark) for bookmark in summarized_bookmark_dicts]
