@@ -2,6 +2,7 @@
 读取 KnowledgeSea 中的书签，使用 jina reader 获取文本内容，然后使用 LLM 总结文本。详细实现请参见 process_changes.py。需要和 KnowledgeSea 中的 Github Action 一起使用。
     
 ## Summarized Bookmarks
+- (2025-01-10) [HelloGitHub 月刊](202501/2025-01-10-hellogithub-%E6%9C%88%E5%88%8A.md)
 - (2025-01-10) [阮一峰的网络日志](202501/2025-01-10-%E9%98%AE%E4%B8%80%E5%B3%B0%E7%9A%84%E7%BD%91%E7%BB%9C%E6%97%A5%E5%BF%97.md)
 - (2025-01-08) [面试指南之算法面试心得](202501/2025-01-08-%E9%9D%A2%E8%AF%95%E6%8C%87%E5%8D%97%E4%B9%8B%E7%AE%97%E6%B3%95%E9%9D%A2%E8%AF%95%E5%BF%83%E5%BE%97.md)
 - (2025-01-02) [Informix Servers 12.10](202501/2025-01-02-informix-servers-12.10.md)
