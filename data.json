@@ -46,5 +46,11 @@
     "title": "huihui_ai/deepseek-r1-abliterated:7b",
     "url": "https://ollama.com/huihui_ai/deepseek-r1-abliterated:7b",
     "timestamp": 1742525244
+  },
+  {
+    "month": "202503",
+    "title": "Database Installation Guide",
+    "url": "https://docs.oracle.com/en/database/oracle//oracle-database/19/ntdbi/creating-a-database-after-installation.html",
+    "timestamp": 1742535755
   }
 ]
