@@ -40,5 +40,11 @@
     "title": "HelloGitHub 月刊",
     "url": "https://hellogithub.com/periodical",
     "timestamp": 1736506146
+  },
+  {
+    "month": "202503",
+    "title": "huihui_ai/deepseek-r1-abliterated:7b",
+    "url": "https://ollama.com/huihui_ai/deepseek-r1-abliterated:7b",
+    "timestamp": 1742525244
   }
 ]
